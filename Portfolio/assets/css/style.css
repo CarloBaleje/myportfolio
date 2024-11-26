@@ -1,0 +1,334 @@
+/* General body styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+
+
+
+header {
+    text-align: center;
+    padding: 2rem;
+    background: #4CAF50;
+    color: white;
+}
+
+/* Main container styles */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem 0;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: white;
+}
+
+/* Image display inside header (profile image) */
+header .my-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 1rem;
+    border: 4px solid #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Grid for projects and image gallery */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.project-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    text-align: center;
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Image Gallery Styles */
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 equal columns */
+    gap: 10px; /* Space between images */
+}
+
+.image-item {
+    text-align: center;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Button styles */
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #45a049;
+}
+
+/* Image Navigation Buttons */
+.image-navigation {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.nav-btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+
+.nav-btn:hover {
+    background-color: #555;
+}
+
+/* Form Styles */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Fields */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Submit Button */
+button.btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Basic page layout */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+/* Image container */
+.image-container {
+    margin: 20px 0;
+}
+
+.current-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom CSS for Photo Enhancing Project */
+
+/* Style for the back to homepage button */
+.back-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue color */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 20px; /* Add some space between buttons */
+}
+
+.back-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Form styling to align buttons in a row */
+.toggle-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+/* Style for the images */
+.image {
+    width: 200px; /* Adjust the width to your preference */
+    height: auto; /* Automatically adjust the height to maintain aspect ratio */
+    margin-bottom: 10px;
+}
+
+/* Image gallery layout */
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 columns per row */
+    gap: 10px;
+}
+
+/* Add some spacing for each image item */
+.image-item {
+    text-align: center;
+}
+
+.back-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue color */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px; /* Adjust the top margin if necessary */
+}
+
+.back-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* LOGO--------------------------------------------------------------------------*/
+/* Custom Styles for Centering Logos */
+.card-img-top {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain; /* Ensure the logo maintains its aspect ratio */
+}
+
+/* Center the image container */
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Ensure that each card is centered in the grid */
+.col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+/* Center the card contents */
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* Set the card's max width for responsiveness */
+.card-img-top {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Custom CSS for logo images */
+.logo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.logo-item {
+    text-align: center;
+}
+
+.logo {
+    max-width: 200px; /* Maximum width of the logo */
+    max-height: 200px; /* Maximum height of the logo */
+    width: auto;
+    height: auto;
+    object-fit: contain; /* Ensure the image scales properly without distortion */
+    border: 1px solid #ddd; /* Optional: Add a border around the logo */
+    padding: 10px; /* Optional: Add some padding around the logo */
+}
+
+/* SHIRT------------------------------------------------------------------------------------ */
+.logo {
+    transition: transform 0.3s ease; /* Smooth zoom effect */
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.logo:hover {
+    transform: scale(1.2); /* Enlarge the image on hover */
+    cursor: pointer;
+}
+/* My PIC---------------------------------- */
+.profile-picture {
+    width: 300px; /* Baguhin ang laki dito */
+    height: auto; /* Automatic na mag-aadjust ang taas */
+    border: 5px solid #fff; /* White border para magmukhang mas maganda */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: shadow effect */
+    transition: transform 0.3s ease; /* Optional: smooth zoom effect */
+}
+
+.profile-picture:hover {
+    transform: scale(1.1); /* Optional: zoom effect on hover */
+    cursor: pointer; /* Pointer cursor on hover */
+}
